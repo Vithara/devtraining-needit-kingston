@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Steps to approve and fulfill NeedIt requests.</description>
+        <label_cache>[{"name":"210887f2-9273-44bf-8428-5cd3964e8ea9.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table"},{"name":"210887f2-9273-44bf-8428-5cd3964e8ea9.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record"},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
+        <name>StartFragmentNeedIt FulfillmentEndFragment</name>
+        <parent_flow display_value="NeedIt Fulfillment">95ef3f69db70230025ad5385ca9619b8</parent_flow>
+        <remote_trigger_id>90b28039dbf0230025ad5385ca961901</remote_trigger_id>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-27 12:26:18</sys_created_on>
+        <sys_id>29b744b9dbf0230025ad5385ca961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StartFragmentNeedIt FulfillmentEndFragment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_29b744b9dbf0230025ad5385ca961953</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-27 12:26:18</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
